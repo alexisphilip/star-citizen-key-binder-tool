@@ -1,0 +1,38 @@
+<!-- Keybindings
+- profileName: the name of the profile
+-->
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="Perso1">
+    <!-- Automatic devices list (cannot be modified in the settings menus) -->
+    <CustomisationUIHeader label="Perso1" description="" image="">
+        <!-- Input devices (keyboard, mouse, joysticks) -->
+        <devices>
+            <keyboard instance="1"/>
+            <mouse instance="1"/>
+            <joystick instance="1"/>
+            <joystick instance="2"/>
+        </devices>
+        <!--  -->
+        <categories>
+            <category label="@ui_CCSpaceFlight"/>
+            <category label="@ui_CCVehicle"/>
+            <category label="@ui_CGUIGeneral"/>
+        </categories>
+    </CustomisationUIHeader>
+    <!-- Options for joysticks (axis dead zones, axis saturation...) -->
+    <deviceoptions name="T.16000M {B10A044F-0000-0000-0000-504944564944}">
+        <option input="x" deadzone="0.049499996"/>
+        <option input="x" saturation="0.94050002"/>
+    </deviceoptions>
+    <!-- CATEGORY spacehsip_general -->
+    <actionmap name="spaceship_general">
+        <action name="v_eject">
+            <rebind input="js1_ "/>
+        </action>
+        <action name="v_exit">
+            <rebind input="js2_button10"/>
+        </action>
+        <action name="v_toggle_all_doors">
+            <rebind input="js2_button7"/>
+        </action>
+    </actionmap>
+</ActionMaps>

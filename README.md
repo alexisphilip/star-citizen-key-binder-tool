@@ -1,4 +1,4 @@
-# Star Citizen Key Binder
+# Star Citizen 3.11 key binder tool
 
 Links:
 - https://keycode.info/
@@ -71,12 +71,12 @@ Each `action` has the *user input keyword* concatenated with its *instance numbe
 ## TODO
 - show the keybind map for:
   - spaceships:
-    - flying (all modes)
+    - general (all modes)
     - flying mode (default)
     - scanning mode
     - mining mode
   - ground vehicles:
-    - driving (all modes)
+    - general (all modes)
     - driving mode (default)
     - mining mode
   - human:
